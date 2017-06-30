@@ -1,0 +1,616 @@
+/* =====================
+  setting
+===================== */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container{
+	width: 1500px;
+	margin: 0 auto;
+}
+
+/* =====================
+  Header
+===================== */
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	background-color: #3AE9F1;
+}
+
+
+.logo{
+	width: 225px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	float: left;
+}
+
+/*ハンバーガーメニュー*/
+
+.menu-box{
+	display: none;
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin-right: 5%;
+	border: 1px solid #FAFAFA;
+	margin-top: 5px;
+}
+
+.list-bar{
+	display: block;
+	width: 25px;
+	height: 2px;
+	margin: 5px auto;
+	background-color: #FAFAFA;
+}
+
+.list-bar:first-child{
+	margin-top: 10px;
+}
+
+/*ハンバーガーメニュー終わり*/
+
+/* nav{
+	width: 800px;
+	height: 90px;
+	margin: 0 auto;
+	padding-top: 25px;
+} */
+
+.nav{
+	height: 80px;
+	width: 1000px;
+	float: right;
+	padding-top: 20px;
+}
+
+.nav-list{
+	float: left;
+	width: 150px;
+	height: auto;
+	color: black;
+	text-align: center;
+	list-style: none;
+	margin-right: 50px;
+}
+
+.nav-list a{
+	font-weight: bold;
+	color: black;
+}
+
+p{
+	width: 150px;
+}
+
+p.en{
+	font-size: 20px;
+}
+
+p.jp{
+	font-size: 12px;
+}
+
+nav li a:hover{
+	color: #ff0000;
+	text-decoration: none;
+}
+
+/*.header::after{
+	background-image: url("../img/b_simple_21_5L.png");
+	width: 100%;
+	height: 20px;
+	background-position: center;
+}*/
+
+/* =====================
+  MainVisual
+===================== */
+
+#mv{
+	width: 100%;
+	height: 700px;
+	padding-top: 100px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*
+.mv-title{
+	padding-top: 200px;
+	font-size: 6.4rem;
+}
+
+.mv-text{
+	padding-top: 10px;
+	font-size: 2rem;
+	text-align: center;
+	width: 100%;
+}*/
+
+/* =====================
+  Products
+===================== */
+#Products{
+	background-color: #FAFAFA;
+	width: 1500px;
+	height: 2000px;
+	margin: 0 auto;
+}
+
+.Products_set{
+	width: 1440px;
+	height: 1940px;
+	margin: 0 auto;
+}
+
+.heading{
+	padding-top: 40px;
+	text-align: center;
+	font-size: 3.2rem;
+}
+
+.heading::after{
+	content: "";
+	display: block;
+	width: 220px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.production-group{
+	width: 1410px;
+	height: 1940px;
+	padding: 30px 0 40px 0;
+	margin: 0 auto;
+}
+
+.production{
+	float: left;
+	width: 342px;
+	height: 450px;
+	margin: 10px 10px 0 0;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 50px 40px 30px 20px;
+}
+
+/*.production:nth-child(-n+3){
+	margin-top: 0;
+}
+
+.production:nth-child(3n){
+	margin-right: 0;
+}
+*/
+.img-1{
+	background-image: url(../img/F30-026.png);
+	border-radius: 50px 40px 30px 20px;
+}
+
+.img-2{
+	background-image: url(../img/F20-085.png);
+}
+
+.img-3{
+	background-image: url(../img/F20-130.png);
+}
+
+.img-4{
+	background-image: url(../img/F30-035.png);
+}
+
+.img-5{
+	background-image: url(../img/FL-016.png);
+}
+
+.img-6{
+	background-image: url(../img/FL-014.png);
+}
+
+.img-7{
+	background-image: url(../img/F40-083_cutlines.png);
+}
+
+.img-8{
+	background-image: url(../img/FL-028M.png);
+}
+
+.img-9{
+	background-image: url(../img/FL-040.png);
+}
+
+.img-10{
+	background-image: url(../img/FL-060.png);
+}
+
+.img-11{
+	background-image: url(../img/51uO8ekdisL.jpg);
+}
+
+.img-12{
+	background-image: url(../img/R30-034.png);
+}
+
+.img-13{
+	background-image: url(../img/FL-065Tuzzles_SuperRoadway.png);
+	border-radius: 50px 40px 30px 20px;
+}
+
+.img-14{
+	background-image: url(../img/ZT1066withChild.jpg);
+}
+
+.img-15{
+	background-image: url(../img/ZT1078.jpg);
+}
+
+.img-16{
+	background-image: url(../img/G-014.png);
+}
+
+p.fadeToggle{
+	display: none;
+	width: 160px;
+	height: 50px;
+	color: black;
+	background-color: #FAFEFD;
+	margin: 0 auto;
+	margin-top: 220px;
+	font-size: 15px;
+	padding: 5px 5px 5px 10px;
+}
+
+/* =====================
+  about
+===================== */
+
+#about{
+	background-color: #FAFAFA;
+}
+
+.heading{
+	padding-top: 40px;
+	text-align: center;
+	font-size: 3.2rem;
+}
+
+.heading::after{
+	content: "";
+	display: block;
+	width: 220px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.heading-text{
+	width: 100%;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+.about-group{
+	width: 920px;
+	padding: 30px 0 40px 0;
+	margin: 0 auto;
+}
+
+.about{
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 10px 10px 0 0;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.about:nth-child(-n+3){
+	margin-top: 0;
+}
+
+.about:nth-child(3n){
+	margin-right: 0;
+}
+
+.bg-1{
+	background-image: url(../img/DL4020-003-Double-Layer-Alphabet-MOCK-UP1.png);
+}
+
+.bg-2{
+	background-image: url(../img/FL-074_1.png);
+}
+
+.bg-3{
+	background-image: url(../img/Shapes-Knob-Puzzle.jpg);
+}
+
+.bg-4{
+	background-image: url(../img/FL-T-029.png);
+}
+
+.bg-5{
+	background-image: url(../img/stego_floor.jpg);
+}
+
+.bg-6{
+	background-image: url(../img/Knob-Puzzle-225x300.jpg);
+}
+
+
+/* =====================
+  Reason
+===================== */
+
+#Reason{
+	background-size: cover;
+	background-position: center;
+}
+
+.strength-group{
+	width: 1000px;
+	padding: 30px 0 40px 0;
+	margin: 0 auto;
+}
+
+.strength{
+	float: left;
+	width: 320px;
+	margin-right: 20px;
+	/*font-awesomeのアイコンのためのコード*/
+	text-align: center;
+	font-size: 6.0rem;
+	border: 1px solid gray;
+}
+
+.strength:last-child{
+	margin-right: 0;
+}
+
+.strength-title{
+	padding-bottom: 10px;
+	font-size: 2rem;
+}
+
+p.strength-text{
+	width: 315px;
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+/* =====================
+  Contact
+===================== */
+.icon{
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+}
+
+p.mail{
+	width: 200px;
+	float: left;
+	margin: 10px 0 10px 200px;
+}
+
+i{
+	float: right;
+	width: 300px;
+}
+
+/* =====================
+  Footer
+===================== */
+.footer{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+	font-size: 16px;
+	padding: 50px 60px 60px 60px;
+}
+
+p.foot{
+	margin-bottom: 10px;
+	color: #FEFCFE;
+}
+
+small{
+	float: right;
+	width: 150px;
+	color: #FEFCFE;
+	padding-bottom: 50px;
+}
+
+/* =====================
+  Topへ戻るボタン
+===================== */
+
+#pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+ 
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 8px 0 0 0px;
+  border-radius: 30px;
+  width: 45px;
+  height: 45px;
+  background-color: #37CEBE;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+ 
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* =====================
+  Media Queries
+===================== */
+
+@media(max-width: 767px){
+
+	/* =====================
+	  setting
+	===================== */
+
+	.container{
+		width: 100%;
+	}
+
+	.sp-none{
+		display: none;
+	}
+
+	/* =====================
+	  Header
+	===================== */
+
+	header{
+		height: 50px;
+		width: 100%;
+	}
+
+	.logo{
+		float: none;
+		width: 100px;
+		margin-left: 5%;
+		text-align: center;
+	}
+
+	.menu-box{
+		display: block;
+	}
+
+	.nav{
+		float: none;
+	}
+
+	.nav-list{
+		display: none;
+		float: none;
+		width: 100%;
+		line-height: 50px;
+		border-top: 1px solid gray;
+		text-align: center;
+		background-color: #EC715F;
+	}
+
+	/* =====================
+	  MainVisual
+	===================== */
+
+	#mv{
+		padding-top: 50px;
+		background-image: url(../img/code.png);
+	}
+
+	.mv-title{
+		font-size: 4rem;
+	}
+
+	.mv-text{
+		font-size: 1.8rem;
+	}
+
+	/* =====================
+	  Products
+	===================== */
+
+	#products{
+		padding: 0 5%;
+	}
+
+	.production-group{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.production{
+		float: none;
+		width: 100%;
+	}
+
+
+	/* =====================
+	  About
+	===================== */
+
+	#About{
+		padding: 0 5%;
+	}
+
+	.heading{
+		width: 100%;
+	}
+
+	.heading-text{
+		float: none;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.about-group:first-child{
+		margin-top: 0;
+	}
+
+    /* =====================
+	  Reason
+	===================== */
+
+	#Reason{
+		padding: 0 5%;
+	}
+
+	.strength-group{
+		width: 100%;
+	}
+
+	.strength{
+		float: none;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.strength:first-child{
+		margin-top: 0;
+	}
+
+}
+
